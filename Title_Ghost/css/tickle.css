@@ -1,0 +1,374 @@
+/**************************************************/
+/**************************************************/
+/*                     Index                      */
+/*                                                */
+/* Menu Ligne : 22                                */
+/* HPlay Ligne : 67                               */
+/* Options Ligne : XX                             */
+/* GAME : XX                                      */
+/**************************************************/
+/* Dev : Jeff Sukhoo - assistDev : Ludovic Jeanne */
+/**************************************************/ 
+
+@font-face {
+    font-family: 'action';
+    src: url('fonts/flower/IndieFlower-webfont.eot');
+    src: url('fonts/flower/IndieFlower-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/flower/IndieFlower-webfont.woff2') format('woff2'),
+         url('fonts/flower/IndieFlower-webfont.woff') format('woff'),
+         url('fonts/flower/IndieFlower-webfont.ttf') format('truetype'),
+         url('fonts/flower/IndieFlower-webfont.svg#indie_flowerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/**************************************************/
+/****************       MENU        ***************/
+/**************************************************/
+
+ #home a {
+ 	text-decoration: none; 
+ 	color: #fff !important;
+ }
+
+
+#home h1, h2, h4, h5, h6, p {
+	font-family: 'action', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	opacity: 0.9;
+
+}
+
+#home h3{
+	font-family: 'action', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 90px;
+	opacity: 0.9;
+	font-weight: lighter;
+	text-align: center;
+}
+
+div#home { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 667px;
+  width: 375px;
+}
+
+#home h2.t1 {
+	text-align: center;
+	margin-top: 85px;
+	font-size: 36px;
+
+}
+
+#home article.aaa1{
+	text-align: center;
+	margin-top: 130px;
+}
+
+#home article.aaa1 p{
+	font-size: 28px;
+}
+
+/**************************************************/
+/***************       HPLAY        ***************/
+/**************************************************/
+ #howtoplay a {
+ 	text-decoration: none; 
+ 	color: #fff !important;
+ }
+
+div#howtoplay { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 667px;
+  width: 375px;
+}
+
+#howtoplay h2.t1 {
+	text-align: center;
+	margin-top: 85px;
+	font-size: 36px;
+	opacity: 0.9;
+
+}
+
+#howtoplay p.p2 {
+	text-align: center;
+	margin-top: 75px;
+	font-size: 23px;
+	margin-left:17px;
+	margin-right:17px;
+	opacity: 0.9;
+
+}
+#howtoplay p.p3 {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 23px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+
+}
+/**************************************************/
+/***************       Options      ***************/
+/**************************************************/
+#options a {
+ 	text-decoration: none; 
+ 	color: #fff !important;
+ }
+
+div#options { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 667px;
+  width: 375px;
+}
+
+#options h2.t1 {
+	text-align: center;
+	margin-top: 85px;
+	font-size: 36px;
+	opacity: 0.9;
+}
+
+article.options {
+	margin-top: 90px;
+}
+
+#options p.p1 {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 30px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+
+}
+
+#options p.p3 {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 23px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+
+}
+
+a.on {
+	font-size: 36px;
+}
+/**************************************************/
+/***************       Optgame      ***************/
+/**************************************************/
+#optgame a {
+ 	text-decoration: none; 
+ 	color: #fff !important;
+ }
+
+div#optgame { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 667px;
+  width: 375px;
+}
+
+#optgame h2.t1 {
+	text-align: center;
+	margin-top: 85px;
+	font-size: 36px;
+	opacity: 0.9;
+}
+
+article.optgame {
+	margin-top: 90px;
+}
+
+#optgame p.p1 {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 30px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+
+}
+
+#optgame p.p3 {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 23px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+
+}
+
+a.on {
+	font-size: 36px;
+}
+/**************************************************/
+/***************        Pause       ***************/
+/**************************************************/
+#pause a {
+ 	text-decoration: none; 
+ 	color: #fff !important;
+ }
+
+div#pause { 
+  background: url(../img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 667px;
+  width: 375px;
+}
+
+#pause h2.t1 {
+	text-align: center;
+	margin-top: 85px;
+	font-size: 36px;
+	opacity: 0.9;
+}
+
+#pause h2.t2 {
+	text-align: center;
+	margin-top: 180px;
+	font-size: 36px;
+}
+
+
+article.pause {
+	margin-top: 50px;
+}
+
+#pause p.p4 {
+	text-align: center;
+	margin-top: 130px;
+	font-size: 36px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+}
+#pause p.p5 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 36px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+}
+
+a.on {
+	font-size: 36px;
+}
+
+/**************************************************/
+/***************       GAMEX        ***************/
+/**************************************************/
+div#game {
+	overflow: hidden;
+}
+
+div#game { 
+  background: url(../img/bggame.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 667px;
+  width: 375px;
+}
+
+#game a {
+ 	text-decoration: none; 
+ 	color: #fff !important;
+ }
+#game p.p3 {
+	text-align: center;
+	margin-top: 32px;
+	font-size: 23px;
+	margin-left:20px;
+	margin-right:20px;
+	opacity: 0.9;
+
+}
+
+#game p.score {
+	top: 10px;
+	font-size: 22px;
+	margin-left:20px;
+	opacity: 0.9;
+
+	display: block;
+	position: fixed;
+
+}
+#game p.misseuh {
+	top: 35px;
+	font-size: 22px;
+	margin-left:20px;
+	opacity: 0.9;
+	display: block;
+	position: fixed;
+
+}
+
+#game p.pause {
+	background: url(../img/pause.png) no-repeat; 
+	font-size: 18px;
+	margin-left:337px;
+	opacity: 0.9;
+	width: 21px;
+	height: 30px;
+	margin-top: -47px;	
+}
+
+#game a.hide {
+	opacity: 0;
+}
+
+article.top p{
+	display: inline-block;
+
+}
+/**************************************************/
+/**************************************************/
+
+div.a {
+	display: block;
+	background: url(../img/ghost.png) no-repeat; 
+	width: 56px;
+	height:77px;
+	position:relative;  
+	z-index: 781227px;
+}
+
+#playg {
+	width: 375px;
+	height: 667px;
+	z-index: 7816;
+}
+
+/**************************************************/
+/***************        END         ***************/
+/**************************************************/

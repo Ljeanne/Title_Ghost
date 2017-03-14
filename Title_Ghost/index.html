@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tickle the Ghost</title>
+	<link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.5/css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/tickle.css">
+	
+	<script src="http://demos.jquerymobile.com/1.4.5/js/jquery.js"></script>
+	<script src="http://demos.jquerymobile.com/1.4.5/js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/tickle.js"></script>
+	<script src="js/random.js"></script>
+	<script language="JavaScript">
+			<!--
+
+			function clickIE4(){
+			if (event.button==2){
+			return false;
+			}
+			}
+
+			function clickNS4(e){
+			if (document.layers||document.getElementById&&!document.all){
+			if (e.which==2||e.which==3){
+			return false;
+			}
+			}
+			}
+
+			if (document.layers){
+			document.captureEvents(Event.MOUSEDOWN);
+			document.onmousedown=clickNS4;
+			}
+			else if (document.all&&!document.getElementById){
+			document.onmousedown=clickIE4;
+			}
+
+			document.oncontextmenu=new Function("return false")
+
+			// --> 
+			</script>
+</head>
+
+<body>
+
+<!-- Start of first page: #home -->
+<div data-role="page" class="hhome "id="home">
+
+	<!-- Content -->
+	<div role="main">
+
+		<h2 class="t1">Tickle the Ghost</h2>
+
+		<article class="aaa1">
+		<p><a href="#game">Start</a></p>
+
+		<p><a href="#howtoplay">How to play</a></p>
+
+		<p><a href="#options">Options</a></p>
+
+		<p><a href="#" id="quit">Quit Game</a></p>
+
+		</article>
+		
+		<h3>©JS-ML-LJ-ABO</h3>
+
+	</div><!-- /content -->
+
+</div><!-- /page one -->
+
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ HOW TO PLAY @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+	<!-- Start of second page: #howtoplay -->
+	<div data-role="page" id="howtoplay">
+
+		<!-- Content -->
+		<div role="main">
+			<h2 class="t1">How to play</h2>
+
+			<p class="p2">Touch a ghost to make it disappear.</p> 
+			<p class="p3">After a period of 3 seconds, the ghost run away and you lose a live.</p>
+
+			<p  class="p3">Good Luck.</p>
+
+			<p class="p3"><a href="#home">Back</a></p>
+
+			<h3>©JS-ML-LJ-ABO</h3>
+
+		</div><!-- /content -->
+
+	</div><!-- /page second -->
+
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  OPTIONS  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!-- Start of third page: #home -->
+<div data-role="page" id="options">
+
+	<!-- Content -->
+	<div role="main">
+		<h2 class="t1">Options</h2>
+
+		<article  class="options">
+		<p class="p1">Sound Effects</p>
+
+		<p class="p3"><a href="#" class="on">ON</a> - <a href="#" class="off">Off</a></p>
+
+		<p class="p1">Music</p>
+
+		<p class="p3"><a href="#" class="on">ON</a> - <a href="#" class="off">Off</a></p>
+
+		<p class="p1"><a href="#home">Back</a></p>
+		</article>
+
+	</div><!-- /content -->
+
+</div><!-- /page third -->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  OPTGAME  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!-- Start of third page: #home -->
+<div data-role="page" id="optgame">
+
+	<!-- Content -->
+	<div role="main">
+		<h2 class="t1">Options</h2>
+
+		<article  class="options">
+		<p class="p1">Sound Effects</p>
+
+		<p class="p3"><a href="#" class="on">ON</a> - <a href="#" class="off">Off</a></p>
+
+		<p class="p1">Music</p>
+
+		<p class="p3"><a href="#" class="on">ON</a> - <a href="#" class="off">Off</a></p>
+
+		<p class="p1"><a href="#pause">Back</a></p>
+		</article>
+
+	</div><!-- /content -->
+
+</div><!-- /page third -->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   PAUSED   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+<!-- Start of third page: #home -->
+<div data-role="page" id="pause">
+
+	<!-- Content -->
+	<div role="main">
+		<h2 class="t1">Paused</h2>
+
+		<article  class="pause">
+
+		<p class="p4"><a href="#optgame">Options</a></p>
+
+		<p class="p5"><a href="#game">Back</a></p>
+
+		<h2 class="t2"><a href="#home">Quit</a></h2>
+		</article>
+
+	</div><!-- /content -->
+
+</div><!-- /page third -->
+
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  GAME  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+	<!-- Start of first page: #game -->
+	<div data-role="page" id="game">
+
+		<div class="a"><img id="ghost" src="img/ghost.png" alt="ghost"></div>
+
+
+		<!-- Content -->
+		<div role="main" id="playg">
+		<p class="pause"><a href="#pause" class="hide">@@</a></p>
+		<article class="top">
+		<p class="score">Tickled :<span class="touch"> 0</span></p>
+		<p class="misseuh">Missed :<span class="miss"> 0</span></p>
+		</article>
+
+
+
+
+	
+
+		
+		</div><!-- /content -->
+
+	</div><!-- /page game -->
+
+
+
+
+</body>
+</html>
